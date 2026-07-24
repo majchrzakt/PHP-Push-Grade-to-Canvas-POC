@@ -10,6 +10,6 @@ It currently contains the course id, Canvas assignment id, and grade to be poste
 
 This minimizes the amount of PII stored on the server to student emails and Canvas user ids, which are needed to push the grade to the correct student.  No grades are stored on the system.  
 
-Even less information could be stored on the server, if your institutiion allows you to create an LTI integration where a student can click a link in Canvas, which would provide context (name, email, Canvas id) to your program without requiring the student to log into your system at all.  Canvas would provide the authentication instead.  
+Even less information could be stored on the server, if your institutiion allows you to create an LTI integration where a student can click a link in Canvas, which would provide context (name, email, Canvas id) to your program without requiring the student to log into your system at all.  Canvas would provide the authentication instead.  This also would simplify the code by providing the course id and assignment id in the context as well.
 
 If you want students to verify their email address, you could email them a magic link to click, or you could set up a password on your system.
