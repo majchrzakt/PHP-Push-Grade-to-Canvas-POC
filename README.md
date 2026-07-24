@@ -1,7 +1,7 @@
 # Overview and Demonstration
 This is just a proof of concept, showing how a student might log into your tool (to be developed), which also would accept a file submission, grade it, and push a grade to Canvas for a given assignment.
 
-To see it working watch this ([9 second video](https://example.com)).
+To see it working watch this ([9 second video](https://www.youtube.com/watch?v=E5L4omuCnhg)).
 
 # Recommendations
 Then env.example provides an example of what you need to put into the .env file on your system to keep your secrets (Canvas Token, etc.) safe.  Put it in a secure location on your server outside of your public web folder.
